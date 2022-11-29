@@ -1,0 +1,4 @@
+2022-11-07 12:55:42,671 | INFO : Experiment resnet32_cifar10_demo starts at 2022-11-07T07:25:42.670912.
+2022-11-07 12:55:42,671 | INFO : Parsed setting file from settings/resnet32_cifar10_reported.json...
+2022-11-07 12:55:44,009 | INFO : ==> Preparing dataset: cifar10
+2022-11-07 12:55:45,286 | INFO : ==> Building baseline model: baseline/resnet32_cifar10_baseline (dataset: cifar10)

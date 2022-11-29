@@ -1,0 +1,15 @@
+2022-11-29 20:39:14,430 | INFO : Experiment resnet20_cifar10_demo starts at 2022-11-29T15:09:14.429294.
+2022-11-29 20:39:14,430 | INFO : Parsed setting file from settings/resnet20_cifar10_reported.json...
+2022-11-29 20:39:16,017 | INFO : ==> Preparing dataset: cifar10
+2022-11-29 20:41:35,514 | INFO : ==> Building baseline model: baseline/resnet20_cifar10_baseline (dataset: cifar10)
+2022-11-29 20:41:38,227 | INFO : Model baseline/resnet20_cifar10_baseline loaded (<class 'models.resnet.CifarResNet'>)
+2022-11-29 20:41:39,892 | INFO : Model baseline/resnet20_cifar10_baseline <class 'models.resnet.CifarResNet'> has a baseline of 92.35.
+2022-11-29 20:41:39,900 | INFO : pruning_strategy: greedy (tickets magnitute increase); n_clusters: 8; eval_pruned_kernel_relationship: True; cost_balancer: auto; eval_kept_kernel_ratio: 0.2
+2022-11-29 20:42:45,637 | INFO : Layer 2-0-0; Shape (16, 16, 3, 3) -> (16, 144); Method: Spectral; Occurrence: ({'Spectral': 19, 'K-PCA': 15, 'DBSCAN': 2});	Sequence: {'K-PCA': 3, 'Spectral': 6});
+2022-11-29 20:43:49,895 | INFO : Layer 2-0-2; Shape (16, 16, 3, 3) -> (16, 144); Method: Spectral; Occurrence: ({'Spectral': 17, 'K-PCA': 10, 'DBSCAN': 9});	Sequence: {'Spectral': 3, 'K-PCA': 2, 'DBSCAN': 4});
+2022-11-29 20:44:58,867 | INFO : Layer 2-1-0; Shape (16, 16, 3, 3) -> (16, 144); Method: DBSCAN; Occurrence: ({'DBSCAN': 30, 'Spectral': 4, 'K-PCA': 2});	Sequence: {'K-PCA': 1, 'DBSCAN': 21, 'Spectral': 1});
+2022-11-29 20:46:07,182 | INFO : Layer 2-1-2; Shape (16, 16, 3, 3) -> (16, 144); Method: Spectral; Occurrence: ({'Spectral': 21, 'DBSCAN': 9, 'K-PCA': 6});	Sequence: {'DBSCAN': 2, 'Spectral': 11, 'K-PCA': 2});
+2022-11-29 20:47:13,092 | INFO : Layer 2-2-0; Shape (16, 16, 3, 3) -> (16, 144); Method: K-PCA; Occurrence: ({'K-PCA': 26, 'Spectral': 8, 'DBSCAN': 2});	Sequence: {'Spectral': 4, 'DBSCAN': 1, 'K-PCA': 15});
+2022-11-29 20:48:21,909 | INFO : Layer 2-2-2; Shape (16, 16, 3, 3) -> (16, 144); Method: K-PCA; Occurrence: ({'K-PCA': 20, 'Spectral': 14, 'DBSCAN': 2});	Sequence: {'K-PCA': 6, 'Spectral': 3});
+2022-11-29 20:49:58,335 | INFO : Layer 3-0-0; Shape (32, 16, 3, 3) -> (32, 144); Method: DBSCAN; Occurrence: ({'DBSCAN': 18, 'K-PCA': 10, 'Spectral': 8});	Sequence: {'DBSCAN': 6, 'Spectral': 1, 'K-PCA': 1});
+2022-11-29 20:51:36,280 | INFO : Layer 3-0-2; Shape (32, 32, 3, 3) -> (32, 288); Method: K-PCA; Occurrence: ({'K-PCA': 23, 'Spectral': 12, 'DBSCAN': 1});	Sequence: {'K-PCA': 16, 'Spectral': 5});
