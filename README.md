@@ -53,7 +53,7 @@ groups.
         --task finetune
 ```
 ## References
-- [Basics of ASR](http://www.cs.columbia.edu/~julia/courses/CS6998-2019/%5B09%5D%20Automatic%20Speech%20Recognition.pdf)
+- [Lottery_Regulated_Group_Kernal_Pruning](https://github.com/Ani-Kar/lottery_regulated_kernal_pruning/blob/main/2257_revisit_kernel_pruning_with_lo.pdf)
 
 
 
